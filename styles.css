@@ -1,0 +1,885 @@
+.navigate{
+    background-image: url("bg.png");
+    margin: 0px;
+    padding: 0;
+}
+.nav-bar{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    padding: 0;
+    margin: 0;
+}
+.logo-name{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 10px;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 10px;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.a{
+    border: solid white;
+    border-radius: 4px;
+}
+.b{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.b:hover{
+    background-color: brown;
+}
+.heroji h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    padding: 0 450px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heroji{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.heroji .c{
+    padding: 10px 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heroji .mails{
+    padding: 10px 415px;
+}
+.heroji div {
+    display: flex;
+    position: relative;
+    padding: 5px  30px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.heroji .e{
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0 50px;
+    
+}
+.heroji a{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+    transition: background-color 0.3s;
+}
+.heroji a:hover{
+    background-color: brown;
+}
+hr{
+    border: solid red;
+    position: relative;
+    margin-bottom: 0;
+}
+.trending-now{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trending-now .movies div{
+    font-size: 20px;
+    margin-left: 60px;
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    padding: 5px 5px;
+    align-items: center;
+    border: solid white;
+    border-radius: 4px;
+}
+.trending-now h2{
+    font-size: 25px;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.trending-now .images{
+    display: flex;
+}
+.trending-now img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    transition: background-color 0.3s;
+}
+.trending-now img:hover{
+    color: white;
+}
+.trending-now h3{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    top:106.5%;
+    position: absolute;
+    padding: 4px 4px;
+}
+.trending-now .f{
+    left: 6.5%;
+}
+.trending-now .g{
+    left: 24%;
+}
+.trending-now .h{
+    left: 42%;
+}
+.trending-now .i{
+    left: 59.5%;
+}
+.trending-now .j{
+    left: 77%;
+}
+.final-home{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.final-home h2{
+    font-size: 25px;
+    position: relative;
+    padding-top: 55px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.final-home .k{
+    display: flex;
+    padding: 25px 0;
+}
+.k div{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(27,18,18);
+    margin-left: 45px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.k h3{
+    font-size: 20px;
+}
+.k p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.qa{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qa h2{
+    font-size: 30px;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-left: 60px;
+}
+.qa div{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.qa div p{
+    background-color: #5A5A5A;
+    color: white;
+    margin-left: 60px;
+    margin-right: 80px;
+    padding: 10px 40px;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0;
+}
+.qa p span{
+    float: right;
+}
+.re{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: black;
+    margin: 0;
+    position: relative;
+}
+/*.re .c{
+    padding: 10px 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.re .mails{
+    padding: 10px 415px;
+}
+.re div {
+    display: flex;
+    position: relative;
+    padding: 5px  30px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.re .e{
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0 50px;
+    
+}
+.re a{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+    transition: background-color 0.3s;
+}
+.re a:hover{
+    background-color: brown;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+footer ul{
+    list-style: none;
+}
+footer li a{
+    color: white;
+    transition: color 0.3s;
+}
+footer li a:hover{
+    color: grey;
+}
+@media(max-width:748px){
+    .navigate{
+        background-image: url("bg.png");
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    .logo-name{
+        color: red;
+        font-family: Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 7px;
+        text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-left: 10px;
+    }
+    .nav-links{
+        list-style: none;
+        margin: 0;
+        display: flex;
+    }
+    .nav-links li{
+        margin-left: 12px;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        padding: 10px 10px;
+        color: white;
+        transition: background-color 0.3s;
+        font-size: 15px;
+        font-family: 'Lucida Sans', sans-serif;
+    }
+    .a{
+        border: solid white;
+        border-radius: 4px;
+    }
+    .b{
+        background-color: red;
+        color: white;
+        border-radius: 4px;
+        margin-right: 6px;
+    }
+    .b:hover{
+        background-color:brown;
+    }
+    .heroji{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 150;
+    }
+    .heroji h1{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        padding: 0 100px;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .heroji .c{
+        padding: 10px 100px;
+        margin-left: 15px;
+    }
+    .heroji .mails{
+        padding: 10px 100px;
+        margin-left: 15px;
+    }
+    .heroji div{
+        display: flex;
+        position: relative;
+        padding: 5px 30px;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 60px;
+        justify-content: space-between;
+    }
+    .heroji .e{
+        color: white;
+        border: solid white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 0px 50px;
+    }
+    .heroji a{
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 0px 10px;
+        transition: background-color 0.2s;
+    }
+    .heroji a:hover{
+        background-color: brown;
+    }
+    hr{
+        border: solid red;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    .trending-now{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .trending-now .movies div{
+        font-size: 16px;
+        margin-left: 80px;
+        display: inline-block;
+        height: 20px;
+        width: 70px;
+        padding: 5px 5px;
+        align-items: center;
+        border: solid white;
+        border-radius: 5px;
+    }
+    .trending-now h2{
+        font-size: 20px;
+        position: relative;
+        padding-top: 30px;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    .trending-now .images{
+        display: block;
+    }
+    .trending-now img{
+        height: 300px;
+        width: 250px;
+        border-radius: 10px;
+        margin-left: 80px;
+        margin-top: 30px;
+        display: block;
+    }
+    .trending-now .headings h3{
+        color: white;
+        display: inline-block;
+        background-color: red;
+        border-radius: 5px;
+        align-items: center;
+        position: absolute;
+        padding: 4px 2px;
+        height: 20px;
+        width: 200px;
+        margin-right: 140px;
+    }
+    .trending-now .headings .f{
+        top: 106%;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .trending-now .headings .g{
+        top: 150%;
+        right: 200px;
+    }
+    .trending-now .headings .h{
+        top: 192%;
+        right: 150px;
+    }
+    .trending-now .headings .i{
+        top: 235%;
+        right: 150px;
+    }
+    .trending-now .headings .j{
+        top: 275%;
+        right: 150px;
+    }
+    .final-home{
+        margin-bottom: 0px;
+        padding-top: 20px;
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .final-home h2{
+        font-size: 20px;
+        position: relative;
+        padding-top: 50px;
+        margin-top: 0;
+        margin-top: 70px;
+    }
+    .final-home .k{
+        display: block;
+        padding: 25px 0;
+
+    }
+    .final-home .k div{
+        height: 200px;
+        width: 250px;
+        margin-bottom: 10px;
+        background-color: rgba(27,18,18);
+        margin-left: 45px;
+        padding: 20px 10px;
+        border-radius: 5px;
+    }
+    .k h3{
+        font-size: 20px;
+    }
+    .k p{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .qa{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .qa h2{
+        font-size: 30px;
+        position: relative;
+        padding-top: 40px;
+        margin-top: 0;
+        margin-left: 60px;
+    }
+    .qa div{
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .qa div p{
+        background-color: #5A5A5A;
+        color: white;
+        margin-left: 50px;
+        margin-right: 70px;
+        padding: 10px 40px;
+        font-size: 25px;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .qa p span{
+        float: right;
+    }
+    .re{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        background-color: black;
+        margin: 0;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .re .mails{
+        padding: 10px 100px;
+        margin-left: 15px;
+    }
+    .re div{
+        display: flex;
+        position: relative;
+        padding: 5px 30px;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 60px;
+        justify-content: space-between;
+    }
+    .re .e{
+        color: white;
+        border: solid white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 0px 50px;
+    }
+    .re a{
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 0px 10px;
+        transition: background-color 0.2s;
+    }
+    .re a:hover{
+        background-color: brown;
+    }
+    footer{
+        background-color: black;
+        margin-top: 0;
+        padding-top: 70px;
+        display: block;
+        color: white;
+        padding-left: 80px;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-bottom: 100px;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer li a{
+        color: white;
+        transition: color 0.3s;
+    }
+    footer li a:hover{
+        color: grey;
+    }
+}
+@media(min-width:749px){
+    .navigate{
+        background-image: url("bg.png");
+        margin: 0px;
+        padding: 0;
+    }
+    .nav-bar{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    .logo-name{
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 1000;
+        font-size: 40px;
+        padding: 10px;
+        text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-left: 10px;
+    }
+    .nav-links{
+        list-style: none;
+        margin: 0;
+        display: flex;
+    }
+    .nav-links li{
+        margin-left: 10px;
+    }
+    .nav-links li a{
+        text-decoration: none;
+        padding: 15px 15px;
+        color: white;
+        transition: background-color 0.3s;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+    .a{
+        border: solid white;
+        border-radius: 4px;
+    }
+    .b{
+        background-color: red;
+        color: white;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+    .b:hover{
+        background-color: brown;
+    }
+    .heroji h1{
+        color: white;
+        font-size: 50px;
+        position: relative;
+        padding: 0 450px;
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heroji{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .heroji .c{
+        padding: 10px 550px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heroji .mails{
+        padding: 10px 415px;
+    }
+    .heroji div {
+        display: flex;
+        position: relative;
+        padding: 5px  30px;
+        align-items: center;
+        margin-left: 300px;
+        margin-right: 400px;
+        justify-content: space-around;
+    }
+    .heroji .e{
+        color: white;
+        border: solid white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 0 50px;
+        
+    }
+    .heroji a{
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 0 12px;
+        transition: background-color 0.3s;
+    }
+    .heroji a:hover{
+        background-color: brown;
+    }
+    hr{
+        border: solid red;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .trending-now{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .trending-now .movies div{
+        font-size: 20px;
+        margin-left: 60px;
+        display: inline-block;
+        height: 20px;
+        width: 70px;
+        padding: 5px 5px;
+        align-items: center;
+        border: solid white;
+        border-radius: 4px;
+    }
+    .trending-now h2{
+        font-size: 25px;
+        position: relative;
+        padding-top: 40px;
+        margin-top: 0;
+        margin-left: 60px;
+    }
+    .trending-now .images{
+        display: flex;
+    }
+    .trending-now img{
+        height: 250px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 30px;
+        display: flex;
+        transition: background-color 0.3s;
+    }
+    .trending-now img:hover{
+        color: white;
+    }
+    .trending-now h3{
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+        align-items: center;
+        top:106.5%;
+        position: absolute;
+        padding: 4px 4px;
+    }
+    .trending-now .f{
+        left: 6.5%;
+    }
+    .trending-now .g{
+        left: 24%;
+    }
+    .trending-now .h{
+        left: 42%;
+    }
+    .trending-now .i{
+        left: 59.5%;
+    }
+    .trending-now .j{
+        left: 77%;
+    }
+    .final-home{
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .final-home h2{
+        font-size: 25px;
+        position: relative;
+        padding-top: 55px;
+        margin-top: 0;
+        margin-left: 60px;
+    }
+    .final-home .k{
+        display: flex;
+        padding: 25px 0;
+    }
+    .k div{
+        height: 250px;
+        width: 300px;
+        background-color: rgba(27,18,18);
+        margin-left: 45px;
+        padding: 30px 10px;
+        border-radius: 10px;
+    }
+    .k h3{
+        font-size: 20px;
+    }
+    .k p{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .qa{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .qa h2{
+        font-size: 30px;
+        position: relative;
+        padding-top: 40px;
+        margin-top: 0;
+        margin-left: 60px;
+    }
+    .qa div{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .qa div p{
+        background-color: #5A5A5A;
+        color: white;
+        margin-left: 60px;
+        margin-right: 80px;
+        padding: 10px 40px;
+        font-size: 30px;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .qa p span{
+        float: right;
+    }
+    .re{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        background-color: black;
+        margin: 0;
+        position: relative;
+    }
+    .re .mails{
+        padding: 10px 415px;
+    }
+    .re div {
+        display: flex;
+        position: relative;
+        padding: 5px  30px;
+        align-items: center;
+        margin-left: 300px;
+        margin-right: 400px;
+        justify-content: space-around;
+    }
+    .re .e{
+        color: white;
+        border: solid white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 0 50px;
+        
+    }
+    .re a{
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 0 12px;
+        transition: background-color 0.3s;
+    }
+    .re a:hover{
+        background-color: brown;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        padding-top: 100px;
+        padding-left: 150px;
+        justify-content: space-between;
+        padding-right: 200px;
+        padding-bottom: 150px;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer li a{
+        color: white;
+        transition: color 0.3s;
+    }
+    footer li a:hover{
+        color: grey;
+    }
+}

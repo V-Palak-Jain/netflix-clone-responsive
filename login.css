@@ -1,0 +1,89 @@
+/*img{
+    height: 100%;
+    width: 100%;
+}*/
+body{
+    background-image: url("./bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 85%;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.bg h1{
+    color: white;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 25px;
+}
+.bg .email{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: solid white;
+    margin-left: 40px;
+    border-radius: 4px;
+    display: block;
+}
+.bg .email p{
+    color: white;
+    padding: 1px 10px;
+    font-size: 11px;
+}
+.bg .pass{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: solid white;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.bg .pass p{
+    color: white;
+    padding: 1px 10px;
+    font-size: 11px;
+}
+.bg .red-box{
+    height: 30px;
+    width: 200px;
+    background-color: red;
+    border: solid red;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.bg .red-box p{
+    color: white;
+    padding: 1px 80px;
+    font-size: 11px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 150px;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+footer ul{
+    list-style: none;
+}
+footer li a{
+    color: white;
+    transition: color 0.3s;
+}
+footer li a:hover{
+    color: grey;
+}
